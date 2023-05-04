@@ -1,0 +1,7 @@
+package ua.com.cache.cachelab.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import ua.com.cache.cachelab.entity.Category;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {}
